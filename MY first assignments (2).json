@@ -1,0 +1,472 @@
+{
+  "metadata": {
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    },
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": "Q2",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "var1=''\nvar2=\"[DS,ML, PAYTHON,]\"\nvar3=['DS','ML','python']\nvar4=1",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "print(type(var1))\nprint(type(var2))\nprint(type(var3))\nprint(type(var4))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'str'>\n<class 'str'>\n<class 'list'>\n<class 'int'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#Q1\n",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 6,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "A = \"kuldeep\"",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 7,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "type(A)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "execution_count": 8,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "str"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "B =[\"KULDEEP\", \"AMAN\",23,345,True, 23.45]",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 9,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "type(B)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "execution_count": 10,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "list"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "c = 23.99899",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 11,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "type(c)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "execution_count": 12,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "float"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "d =(\"raju\",\"aman\",\"kuldeep\")",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 13,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "type(d)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "execution_count": 14,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "tuple"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#Q3\n",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 15,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "\n#example 1 /",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 17,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "2/3",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "execution_count": 18,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "0.6666666666666666"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#example 2 %",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 19,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "a = 24\nb = 23\nc = a%b\n",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 24,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "c",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "execution_count": 25,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "1"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#example 3 //",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 26,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": " a =24\nb = 21\nc = a//b\nprint(c)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "1\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "a = 11\nb = 3\nc =a**b\nprint(c)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "1331\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#Q4 EXample",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "Ai =[12,23,43,\"kuldeep\",23,True,\"coaching\",\"raman\",23,43,1.2]\nfor i in Ai :\n    print(type(i))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "<class 'int'>\n<class 'int'>\n<class 'int'>\n<class 'str'>\n<class 'int'>\n<class 'bool'>\n<class 'str'>\n<class 'str'>\n<class 'int'>\n<class 'int'>\n<class 'float'>\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#Q 6 Example",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 36,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "Al = [2,4,5,5,6,6,66,67,3,4,4,345,54,75,75,35,35,65,345,65,656,454,65,45,55,55]\nfor i in Al:\n    if i%3==0:\n        print(\"yes it is divisible by 3\")\n    else:\n            print(\"not divisible by 3\")",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 48,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "not divisible by 3\nnot divisible by 3\nnot divisible by 3\nnot divisible by 3\nyes it is divisible by 3\nyes it is divisible by 3\nyes it is divisible by 3\nnot divisible by 3\nyes it is divisible by 3\nnot divisible by 3\nnot divisible by 3\nyes it is divisible by 3\nyes it is divisible by 3\nyes it is divisible by 3\nyes it is divisible by 3\nnot divisible by 3\nnot divisible by 3\nnot divisible by 3\nyes it is divisible by 3\nnot divisible by 3\nnot divisible by 3\nnot divisible by 3\nnot divisible by 3\nyes it is divisible by 3\nnot divisible by 3\nnot divisible by 3\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#Q5",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 49,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "A=70\nB=14\nt=0\nwhile A>=0:\n    prev_A=A\n    A=A-B\n    t+=1\nt-=1\nif prev_A==0:\n    print(\"Divisible by\",t,\"times\")\nelse:\n    print(\"Not divisible\")",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 54,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "Divisible by 5 times\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#Q7",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 55,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "# List are mutable object and tuple is aimutable object example are below",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 56,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "L = [ 1,2,3,4]",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 57,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "L",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 58,
+      "outputs": [
+        {
+          "execution_count": 58,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "[1, 2, 3, 4]"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "L.append(5)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 61,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "L",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 62,
+      "outputs": [
+        {
+          "execution_count": 62,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "[1, 2, 3, 4, 5]"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "# immutable example",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 63,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "p =(1,2,3,4)",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 64,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "p0)=10",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 65,
+      "outputs": [
+        {
+          "ename": "<class 'TypeError'>",
+          "evalue": "'tuple' object does not support item assignment",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "Cell \u001b[0;32mIn[65], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43mp\u001b[49m\u001b[43m[\u001b[49m\u001b[38;5;241;43m0\u001b[39;49m\u001b[43m]\u001b[49m\u001b[38;5;241m=\u001b[39m\u001b[38;5;241m10\u001b[39m\n",
+            "\u001b[0;31mTypeError\u001b[0m: 'tuple' object does not support item assignment"
+          ],
+          "output_type": "error"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
